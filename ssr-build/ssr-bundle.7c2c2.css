@@ -525,10 +525,17 @@ hr {
         margin-top: 16px;
     }
 
-    .clickable{
-        width:80vw;
-    }
 }
+
+.spin-loader {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotateY(0deg); }
+    50% { transform: rotateY(180deg)}
+    100% { transform: rotateY(360deg); }
+  }
 .hrnormal__2aTrK {
 	margin:4rem 0;
 }
@@ -557,10 +564,24 @@ hr {
 
 .success__2ncZD {
 	border: green solid;
+	padding: 3px;
+	background-color: green;
+	font-family: inherit;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 1em;
 }
 
 .fail__oXR-s {
 	border: red solid;
+	padding: 3px;
+	background-color: red;
+	font-family: inherit;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 1em;
 }
 
 .hero__31Obu {
@@ -570,7 +591,7 @@ hr {
         justify-content: center;
     -ms-flex-align: center;
         align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/ff2d7916de28b95dddf747b29755f140.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/f285a395b2b5b3b070db483fbf3002fd.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -598,4 +619,4 @@ hr {
     margin-top:0;
 }
 
-/*# sourceMappingURL=ssr-bundle.9c332.css.map*/
+/*# sourceMappingURL=ssr-bundle.7c2c2.css.map*/
